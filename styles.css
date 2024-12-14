@@ -1,0 +1,48 @@
+/* تنسيق الصفحة العامة */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.discordapp.com/attachments/1218265466573950989/1317289418893037618/b1b4eb98bfd369a1.png?ex=675e24df&is=675cd35f&hm=110949292e71f75eba355feaadc705e658e60e29950c63d0c2a02dec07d6f110&');
+    background-attachment: fixed;
+    color: #333;
+}
+header {
+    background-color: #e2361f;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+table {
+    width: 50%;
+    margin: 100px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff5e0a9;
+}
+th, td {
+    padding: 10px 100px;
+    text-align: center;
+    border: 1px solid #3a3a3a;
+}
+th {
+    background-color: #ff0000;
+    color: rgb(255, 196, 0);
+}
+tr:nth-child(even) {
+    background-color: #fff5e0a9;
+}
+tr:hover {
+    background-color: #ffe6af;
+}
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
