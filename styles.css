@@ -1,12 +1,29 @@
-/* تنسيق الصفحة العامة */
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('https://cdn.discordapp.com/attachments/1218265466573950989/1317289418893037618/b1b4eb98bfd369a1.png?ex=675e24df&is=675cd35f&hm=110949292e71f75eba355feaadc705e658e60e29950c63d0c2a02dec07d6f110&');
+    background-image: url('https://cdn.discordapp.com/attachments/1218265466573950989/1317466987009544232/b1b4eb98bfd369a1.png?ex=675eca3f&is=675d78bf&hm=e55065f88915dfb5d164838381d861926b3edc92816787eda8a3e0fa2054bc03&'); /* استبدل 'background.jpg' بمسار الصورة */
     background-attachment: fixed;
-    color: #333;
+    background-size: cover; /* لجعل الصورة تغطي الخلفية بالكامل */
+    background-repeat: no-repeat; /* لمنع تكرار الصورة */
+    background-position: center; /* لضبط الصورة في المنتصف */
+}
+
+.edit-input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.edit-btn, .save-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-btn:hover, .save-btn:hover {
+    background-color: #0056b3;
 }
 header {
     background-color: #e2361f;
@@ -40,8 +57,8 @@ tr:hover {
 footer {
     text-align: center;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #0fa014;
+    color: rgb(255, 255, 255);
     position: fixed;
     bottom: 0;
     width: 100%;
